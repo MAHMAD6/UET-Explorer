@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UET-Explorer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34e1835ebe8d0d67a57f9162b7e9f043f1da3474")]
 [assembly: System.Reflection.AssemblyProductAttribute("UET-Explorer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UET-Explorer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

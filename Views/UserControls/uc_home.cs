@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using UET_Explorer.Models;
 
 namespace UET_Explorer.Views.UserControls
 {
@@ -27,19 +28,17 @@ namespace UET_Explorer.Views.UserControls
 
         private void p_snakeFinder_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("yes");
-
+            Form_Home.formHome.SetMenu(PAGE.SNAKE_FINDER);
         }
 
         private void p_NadraData_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("yes");
-
+            Form_Home.formHome.SetMenu(PAGE.NADRA_DATA);
         }
 
         private void p_about_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("yes");
+            Form_Home.formHome.SetMenu(PAGE.ABOUT);
 
         }
     }

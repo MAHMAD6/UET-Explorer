@@ -7,10 +7,10 @@
     <Compile Update="Views\UserControls\uc_about.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Views\UserControls\uc_cgpaFinder.cs">
+    <Compile Update="Views\UserControls\uc_studentInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Views\UserControls\uc_cgpaStudentTemplate.cs">
+    <Compile Update="Views\UserControls\uc_StudentTemplate.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Views\UserControls\uc_home.cs">

@@ -19,7 +19,6 @@ C:\Users\cheeeesee\source\repos\UET-Explorer\UET-Explorer\obj\Debug\net8.0-windo
 C:\Users\cheeeesee\source\repos\UET-Explorer\UET-Explorer\obj\Debug\net8.0-windows\UET_Explorer.Views.UserControls.uc_home.resources
 C:\Users\cheeeesee\source\repos\UET-Explorer\UET-Explorer\bin\Debug\net8.0-windows\MaterialSkin.dll
 C:\Users\cheeeesee\source\repos\UET-Explorer\UET-Explorer\obj\Debug\net8.0-windows\UET-Expl.F4AC6344.Up2Date
-C:\Users\cheeeesee\source\repos\UET-Explorer\UET-Explorer\obj\Debug\net8.0-windows\UET_Explorer.Views.UserControls.uc_cgpaFinder.resources
 C:\Users\cheeeesee\source\repos\UET-Explorer\UET-Explorer\bin\Debug\net8.0-windows\EPPlus.dll
 C:\Users\cheeeesee\source\repos\UET-Explorer\UET-Explorer\bin\Debug\net8.0-windows\EPPlus.Interfaces.dll
 C:\Users\cheeeesee\source\repos\UET-Explorer\UET-Explorer\bin\Debug\net8.0-windows\EPPlus.System.Drawing.dll
@@ -35,7 +34,9 @@ C:\Users\cheeeesee\source\repos\UET-Explorer\UET-Explorer\bin\Debug\net8.0-windo
 C:\Users\cheeeesee\source\repos\UET-Explorer\UET-Explorer\bin\Debug\net8.0-windows\System.Drawing.Common.dll
 C:\Users\cheeeesee\source\repos\UET-Explorer\UET-Explorer\bin\Debug\net8.0-windows\System.Security.Cryptography.Pkcs.dll
 C:\Users\cheeeesee\source\repos\UET-Explorer\UET-Explorer\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
-C:\Users\cheeeesee\source\repos\UET-Explorer\UET-Explorer\obj\Debug\net8.0-windows\UET_Explorer.Views.UserControls.uc_cgpaStudentTemplate.resources
 C:\Users\cheeeesee\source\repos\UET-Explorer\UET-Explorer\obj\Debug\net8.0-windows\UET_Explorer.Views.UserControls.uc_about.resources
 C:\Users\cheeeesee\source\repos\UET-Explorer\UET-Explorer\obj\Debug\net8.0-windows\UET_Explorer.Views.UserControls.uc_nadraData.resources
 C:\Users\cheeeesee\source\repos\UET-Explorer\UET-Explorer\obj\Debug\net8.0-windows\UET_Explorer.Views.UserControls.uc_snakeFinder.resources
+C:\Users\cheeeesee\source\repos\UET-Explorer\UET-Explorer\obj\Debug\net8.0-windows\UET_Explorer.Views.UserControls.uc_studentInfo.resources
+C:\Users\cheeeesee\source\repos\UET-Explorer\UET-Explorer\obj\Debug\net8.0-windows\UET_Explorer.Views.UserControls.uc_StudentTemplate.resources
+C:\Users\cheeeesee\source\repos\UET-Explorer\UET-Explorer\obj\Debug\net8.0-windows\UET-Explorer.sourcelink.json

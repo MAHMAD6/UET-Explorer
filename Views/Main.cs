@@ -1,15 +1,9 @@
+using UET_Explorer.Models;
 using UET_Explorer.Views.UserControls;
 
 namespace UET_Explorer
 {
-        public enum PAGE
-        {
-        HOME ,
-        STUDENT_INFO,
-        SNAKE_FINDER,
-        NADRA_DATA,
-        ABOUT
-        }
+
 
     public partial class Form_Home : Form
     {
@@ -27,21 +21,39 @@ namespace UET_Explorer
 
         public void SetMenu(PAGE page)
         {
-            UserControl uc = menus[(int)page];
-            p_container.Controls.Clear();
-            p_container.Controls.Add(uc);
-            uc.Dock = DockStyle.Fill;
-            uc.BringToFront();
-            
+            UserControl? uc = null;
+            switch (page)
+            {
+                case PAGE.HOME:
+                    uc = new uc_home();
+                    break;
+                case PAGE.STUDENT_INFO:
+                    uc = new uc_studentInfo();
+                    break;
+                case PAGE.SNAKE_FINDER:  
+                    uc = new uc_snakeFinder();  
+                    break;
+                case PAGE.NADRA_DATA:
+                    uc = new uc_nadraData();  
+                    break;
+                case PAGE.ABOUT:
+                    uc = new uc_about();  
+                    break;
+            }
 
+            p_container.Controls.Clear();  // Clear existing controls
+            p_container.Controls.Add(uc);  // Add new UserControl to the container
+            uc.Dock = DockStyle.Fill;  // Set UserControl to fill the container
+            uc.BringToFront();  // Ensure the new UserControl is at the front
         }
+
 
         private void initializeEvents()
         {
             menus = new List<UserControl>
             {
                 new uc_home(),
-                new uc_cgpaFinder(),
+                new uc_studentInfo(),
                 new uc_snakeFinder(),
                 new uc_nadraData(),
                 new uc_about()

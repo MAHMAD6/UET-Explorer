@@ -46,6 +46,7 @@
             l_about = new Label();
             l_us = new Label();
             pb_about = new PictureBox();
+            l_appName = new Label();
             p_StudentInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pb_fire).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pb_StudentInfo).BeginInit();
@@ -274,10 +275,22 @@
             pb_about.TabStop = false;
             pb_about.Click += p_about_Click;
             // 
+            // l_appName
+            // 
+            l_appName.AutoSize = true;
+            l_appName.Font = new Font("Nexa Heavy", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            l_appName.ForeColor = Color.Silver;
+            l_appName.Location = new Point(475, 12);
+            l_appName.Name = "l_appName";
+            l_appName.Size = new Size(89, 31);
+            l_appName.TabIndex = 10;
+            l_appName.Text = "MENU";
+            // 
             // uc_home
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.FromArgb(23, 20, 19);
+            Controls.Add(l_appName);
             Controls.Add(p_about);
             Controls.Add(p_snakeFinder);
             Controls.Add(p_NadraData);
@@ -298,6 +311,7 @@
             p_about.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pb_about).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -320,5 +334,6 @@
         private PictureBox pb_about;
         private Label l_about;
         private Label l_us;
+        private Label l_appName;
     }
 }

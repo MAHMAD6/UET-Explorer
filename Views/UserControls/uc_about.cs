@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using UET_Explorer.Models;
 
 namespace UET_Explorer.Views.UserControls
 {
@@ -16,5 +17,12 @@ namespace UET_Explorer.Views.UserControls
         {
             InitializeComponent();
         }
+
+        private void pb_back_Click(object sender, EventArgs e)
+        {
+            Form_Home.formHome.SetMenu(PAGE.HOME);
+        }
+
+
     }
 }
